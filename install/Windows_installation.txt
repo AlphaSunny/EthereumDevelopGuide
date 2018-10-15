@@ -1,0 +1,8 @@
+geth: go ethereum (https://ethereum.github.io/go-ethereum/downloads/)
+
+ganache:    (http://truffleframework.com/ganache/)
+
+nodejs and npm: nodejs at least version 8    npm version 5
+
+truffle 4:(compile test and deploy smart contract)   http://truffleframework.com/
+	npm install -g truffle@4.0.4

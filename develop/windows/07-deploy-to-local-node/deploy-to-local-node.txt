@@ -1,0 +1,10 @@
+# start the node
+./startnode.cmd
+
+# check the ipc and http
+
+# cust the truffle.js
+
+# deploy the smart contract
+truffle migrate --compile-all --reset --network taobao
+

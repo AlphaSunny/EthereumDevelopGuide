@@ -1,0 +1,7 @@
+cd GreetingsTruffle
+truffle console --network ganache
+
+web3.eth.sendTransaction({from:web3.eth.accounts[0], to: web3.eth.accounts[1], value: web3.toWei(5, "ether")})
+
+web3.eth.getBalance(web3.eth.accounts[0]).toNumber()
+
